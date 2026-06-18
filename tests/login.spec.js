@@ -1,6 +1,6 @@
 const { test, expect } = require('@playwright/test');
 
-const loginPage = 'http://127.0.0.1:5500/login.html';
+const loginPage = 'http://127.0.0.1:5500/login-automation-testing/login.html';
 
 // ✅ TEST 1 — Valid Login
 test('Valid Login Test', async ({ page }) => {
